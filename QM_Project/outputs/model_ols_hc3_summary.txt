@@ -1,0 +1,29 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              y_log_imd   R-squared:                       0.081
+Model:                            OLS   Adj. R-squared:                  0.079
+Method:                 Least Squares   F-statistic:                     35.30
+Date:                Fri, 26 Dec 2025   Prob (F-statistic):           9.35e-35
+Time:                        00:45:04   Log-Likelihood:                -1815.8
+No. Observations:                2082   AIC:                             3644.
+Df Residuals:                    2076   BIC:                             3678.
+Df Model:                           5                                         
+Covariance Type:                  HC3                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     10.5272      0.130     80.922      0.000      10.272      10.782
+x_log_nt      -0.1051      0.030     -3.450      0.001      -0.165      -0.045
+x_log_nv       0.0828      0.026      3.155      0.002       0.031       0.134
+x_log_rat     -0.1594      0.078     -2.041      0.041      -0.313      -0.006
+x_log_pop     -0.2131      0.027     -8.035      0.000      -0.265      -0.161
+x_dist        -0.0002      0.003     -0.077      0.939      -0.006       0.006
+==============================================================================
+Omnibus:                       81.384   Durbin-Watson:                   1.165
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               90.533
+Skew:                          -0.510   Prob(JB):                     2.19e-20
+Kurtosis:                       2.930   Cond. No.                         126.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)

@@ -1,0 +1,6 @@
+cluster_kmeans,night_venues_density_km2,venues_to_transport_ratio,night_transport_density_km2,IMD_RANK
+0.0,11.32,0.34,34.42,10205.97
+1.0,2.89,0.27,11.31,9392.79
+2.0,3.56,0.37,10.05,22874.24
+3.0,38.69,2.65,17.36,12556.28
+4.0,117.23,5.95,25.92,13264.88
